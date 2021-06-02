@@ -12,5 +12,5 @@
 
 ### 中国断层
 
-- [CN_faults.gmt](CN_faults.gmt): 中国断层数据
+- [CN-faults.gmt](CN-faults.gmt): 中国断层数据
 

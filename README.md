@@ -1,6 +1,6 @@
 # China's Geospatial Data for GMT
 
-构建中...
+![GitHub repo size](https://img.shields.io/github/repo-size/gmt-china/china-geospatial-data)
 
 ## 数据
 

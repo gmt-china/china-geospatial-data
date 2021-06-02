@@ -1,0 +1,44 @@
+# Upload tarballs to GitHub Releases
+
+name: Upload tarballs
+
+# Only run for releases
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  release:
+    name: Upload tarballs
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.3.4
+
+    - name: Create a UTF8 tarball
+      run: |
+        # create the tarball
+        mkdir china-geospatial-data-UTF8
+        cp *.gmt README.md china-geospatial-data-UTF8/
+        tar czvf china-geospatial-data-UTF8.tar.gz china-geospatial-data-UTF8
+        # check the tarball
+        tar tvf china-geospatial-data-UTF8.tar.gz
+
+    - name: Create a GB2312 tarball
+      run: |
+        mkdir china-geospatial-data-GB2312
+        cp README.md china-geospatial-data-GB2312/
+        for data in $(ls -1 *.gmt); do
+          iconv -c -f UTF-8 -t GB2312 ${data} > china-geospatial-data-GB2312/${data}
+        done
+        tar czvf china-geospatial-data-GB2312.tar.gz china-geospatial-data-GB2312
+        # check the tarball
+        tar tvf china-geospatial-data-GB2312.tar.gz
+
+    - name: Upload tarballs
+      uses: shogo82148/actions-upload-release-asset@v1.3.0
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: china-geospatial-data-*.tar.gz

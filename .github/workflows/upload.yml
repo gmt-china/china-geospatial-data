@@ -22,9 +22,7 @@ jobs:
         # create the tarball
         mkdir china-geospatial-data-UTF8
         cp *.gmt README.md china-geospatial-data-UTF8/
-        tar czvf china-geospatial-data-UTF8.tar.gz china-geospatial-data-UTF8
-        # check the tarball
-        tar tvf china-geospatial-data-UTF8.tar.gz
+        zip -r china-geospatial-data-UTF8.zip china-geospatial-data-UTF8
 
     - name: Create a GB2312 tarball
       run: |
@@ -33,12 +31,10 @@ jobs:
         for data in $(ls -1 *.gmt); do
           iconv -c -f UTF-8 -t GB2312 ${data} > china-geospatial-data-GB2312/${data}
         done
-        tar czvf china-geospatial-data-GB2312.tar.gz china-geospatial-data-GB2312
-        # check the tarball
-        tar tvf china-geospatial-data-GB2312.tar.gz
+        zip -r china-geospatial-data-GB2312.zip china-geospatial-data-GB2312
 
     - name: Upload tarballs
       uses: shogo82148/actions-upload-release-asset@v1.3.0
       with:
         upload_url: ${{ github.event.release.upload_url }}
-        asset_path: china-geospatial-data-*.tar.gz
+        asset_path: china-geospatial-data-*.zip

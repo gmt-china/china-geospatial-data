@@ -29,7 +29,7 @@ jobs:
         mkdir china-geospatial-data-GB2312
         cp README.md china-geospatial-data-GB2312/
         for data in $(ls -1 *.gmt); do
-          iconv -c -f UTF-8 -t GB2312 ${data} > china-geospatial-data-GB2312/${data}
+          iconv -f UTF-8 -t GB2312 ${data} > china-geospatial-data-GB2312/${data}
         done
         zip -r china-geospatial-data-GB2312.zip china-geospatial-data-GB2312
 

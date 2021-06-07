@@ -16,6 +16,12 @@
 
 - [CN-faults.gmt](CN-faults.gmt): 中国断层数据
 
+### 中国大陆及周边活动地块
+
+- [CN-block-L1.gmt](CN-block-L1.gmt): 一级地块边界数据
+- [CN-block-L1-deduced.gmt](CN-block-L1-deduced.gmt): 一级地块推断边界数据
+- [CN-block-L2.gmt](CN-block-L2.gmt): 二级地块边界数据
+
 ## 使用方法
 
 本数据集可在 GMT 中直接使用。具体使用方法见：

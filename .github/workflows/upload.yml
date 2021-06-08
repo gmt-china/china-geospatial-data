@@ -21,13 +21,13 @@ jobs:
       run: |
         # create the tarball
         mkdir china-geospatial-data-UTF8
-        cp *.gmt README.md china-geospatial-data-UTF8/
+        cp *.gmt *.md china-geospatial-data-UTF8/
         zip -r china-geospatial-data-UTF8.zip china-geospatial-data-UTF8
 
     - name: Create a GB2312 ZIP archive
       run: |
         mkdir china-geospatial-data-GB2312
-        cp README.md china-geospatial-data-GB2312/
+        cp README.md *.md china-geospatial-data-GB2312/
         for data in $(ls -1 *.gmt); do
           iconv -f UTF-8 -t GB2312 ${data} > china-geospatial-data-GB2312/${data}
         done

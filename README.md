@@ -36,7 +36,7 @@
 
 - v0.1.0: 2021-06-03
 
-详细修改历史见 [changelog.md](changelog.md).
+详细修改历史见 [Changelog.md](Changelog.md).
 
 ## 维护者
 

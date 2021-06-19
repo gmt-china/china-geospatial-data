@@ -27,9 +27,9 @@
 
 - [CN-faults.gmt](CN-faults.gmt): 中国断层数据
 
-### 中国大陆及临区地质图
+### 中国大陆及邻区地质图
 
-- [geo3al.gmt](geo3al.gmt): 中国大陆及临区地质图
+- [geo3al.gmt](geo3al.gmt): 中国大陆及邻区地质图
 
 ## 版本历史
 

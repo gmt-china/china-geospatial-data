@@ -15,4 +15,5 @@ assignees: ''
 - [ ] Set the current release version and date in README.md
 
 **Release**:
-- [ ] Document all the important changes at the GitHub release page
+- [ ] Set the tag version to vX.Y.Z
+- [ ] Document all the important changes on the GitHub release page

@@ -36,7 +36,8 @@
 如果**最新版本**与**当前版本**不一致，请到项目主页下载最新版本。
 
 - ![GitHub release (latest by date)](https://img.shields.io/github/v/release/gmt-china/china-geospatial-data) （**最新版本**）
-- v0.2.0: 2021-06-08 （**当前版本**）
+- v0.3.0: 2021-06-25 （**当前版本**）
+- v0.2.0: 2021-06-08
 - v0.1.0: 2021-06-03
 
 详细修改历史见 [Changelog.md](Changelog.md).

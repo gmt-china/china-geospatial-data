@@ -4,7 +4,7 @@
 
 *China Geospatial Data for GMT*
 
-*A English version of the README file is available at [README-en.md](README-en.md).*
+*An English version of the README file is available at [README-en.md](README-en.md).*
 
 ----
 

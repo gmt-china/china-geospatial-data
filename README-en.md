@@ -5,9 +5,9 @@
 This project contains China geospatial data that can be used in
 [Generic Mapping Tools (GMT)](https://www.generic-mapping-tools.org/)
 
--**Homepage**: https://github.com/gmt-china/china-geospatial-data
--**Download**: https://github.com/gmt-china/china-geospatial-data/releases
--**Use Instructions**: https://docs.gmt-china.org/latest/dataset-CN/ (In Chinese)
+- **Homepage**: https://github.com/gmt-china/china-geospatial-data
+- **Download**: https://github.com/gmt-china/china-geospatial-data/releases
+- **Instructions**: https://docs.gmt-china.org/latest/dataset-CN/ (In Chinese)
 
 ## Data
 
@@ -17,21 +17,21 @@ This project contains China geospatial data that can be used in
   ten-segment lines, and South China Sea island data
 - [CN-border-L1.gmt](CN-border-L1.gmt): China's national borders, ten-segment line,
   and South China Sea island data, excluding provincial data
-- [ten-dash-line.gmt](ten-dash-line.gmt): only contains ten-segment line data
+- [ten-dash-line.gmt](ten-dash-line.gmt): ten-segment line data
 
-### China mainland and neighboring blocks
+### Active tectonic blocks in the China mainland and neighboring regions
 
-- [CN-block-L1.gmt](CN-block-L1.gmt): Level 1 block boundary data
-- [CN-block-L1-deduced.gmt](CN-block-L1-deduced.gmt): Dedudec Level 1 block boundary data
-- [CN-block-L2.gmt](CN-block-L2.gmt): Level 2 block boundary data
+- [CN-block-L1.gmt](CN-block-L1.gmt): Level-1 block boundary data
+- [CN-block-L1-deduced.gmt](CN-block-L1-deduced.gmt): Deduced Level-1 block boundary data
+- [CN-block-L2.gmt](CN-block-L2.gmt): Level-2 block boundary data
 
-### China Fault
+### China Faults
 
 -[CN-faults.gmt](CN-faults.gmt): China faults
 
-### Geological Map of Mainland China and Adjacent Areas
+### Geological Map of the Mainland China and Adjacent Regions
 
--[geo3al.gmt](geo3al.gmt): Geological map of mainland China and adjacent areas
+-[geo3al.gmt](geo3al.gmt): Geological map of the mainland China and adjacent regions
 
 ## Version history
 
@@ -47,5 +47,5 @@ For detailed version history, please refer to [Changelog.md](Changelog.md).
 
 ## Maintainer
 
-The data in this project is provided by users and maintained by
+The data in this project is provided by users and maintained by the
 [GMT China Community](https://gmt-china.org/).

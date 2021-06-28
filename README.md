@@ -1,5 +1,13 @@
 # 中国地理空间数据集
 
+---
+
+*China Geospatial Data for GMT*
+
+*A English version of the README file is available at [README-en.md](README-en.md).*
+
+----
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/gmt-china/china-geospatial-data)
 
 本项目整理了可供 [Generic Mapping Tools (GMT)](https://www.generic-mapping-tools.org/)

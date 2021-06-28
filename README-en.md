@@ -27,21 +27,21 @@ This project contains China geospatial data that can be used in
 
 ### China Faults
 
--[CN-faults.gmt](CN-faults.gmt): China faults
+- [CN-faults.gmt](CN-faults.gmt): China faults
 
 ### Geological Map of the Mainland China and Adjacent Regions
 
--[geo3al.gmt](geo3al.gmt): Geological map of the mainland China and adjacent regions
+- [geo3al.gmt](geo3al.gmt): Geological map of the mainland China and adjacent regions
 
 ## Version history
 
 If the **latest version** is different from the **current version**,
 please download the latest version from the project homepage.
 
--![GitHub release (latest by date)](https://img.shields.io/github/v/release/gmt-china/china-geospatial-data) (**Latest version**)
--v0.3.0: 2021-06-25 (**Current Version**)
--v0.2.0: 2021-06-08
--v0.1.0: 2021-06-03
+- ![GitHub release (latest by date)](https://img.shields.io/github/v/release/gmt-china/china-geospatial-data) (**Latest version**)
+- v0.3.0: 2021-06-25 (**Current Version**)
+- v0.2.0: 2021-06-08
+- v0.1.0: 2021-06-03
 
 For detailed version history, please refer to [Changelog.md](Changelog.md).
 

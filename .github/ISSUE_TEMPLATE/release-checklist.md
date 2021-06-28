@@ -12,7 +12,7 @@ assignees: ''
 **Before release**:
 - [ ] Document all the important changes in Changelog.md
 - [ ] Set the release date in Changelog.md
-- [ ] Set the current release version and date in README.md
+- [ ] Set the current release version and date in README.md and README-en.md
 
 **Release**:
 - [ ] Set the tag version to vX.Y.Z

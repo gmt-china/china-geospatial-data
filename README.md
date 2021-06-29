@@ -1,7 +1,5 @@
 # 中国地理空间数据集
 
----
-
 *China Geospatial Data for GMT*
 
 *An English version of the README file is available at [README-en.md](README-en.md).*
@@ -35,9 +33,9 @@
 
 - [CN-faults.gmt](CN-faults.gmt): 中国断层数据
 
-### 中国大陆及邻区地质图
+### 中国及邻区地质图
 
-- [geo3al.gmt](geo3al.gmt): 中国大陆及邻区地质图
+- [geo3al.gmt](geo3al.gmt): 中国及邻区地质图
 
 ## 版本历史
 

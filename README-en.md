@@ -3,11 +3,11 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/gmt-china/china-geospatial-data)
 
 This project contains China geospatial data that can be used in
-[Generic Mapping Tools (GMT)](https://www.generic-mapping-tools.org/)
+[Generic Mapping Tools (GMT)](https://www.generic-mapping-tools.org/).
 
 - **Homepage**: https://github.com/gmt-china/china-geospatial-data
 - **Download**: https://github.com/gmt-china/china-geospatial-data/releases
-- **Instructions**: https://docs.gmt-china.org/latest/dataset-CN/ (In Chinese)
+- **Instructions**: https://docs.gmt-china.org/latest/dataset-CN/ (in Chinese)
 
 ## Data
 
@@ -29,9 +29,9 @@ This project contains China geospatial data that can be used in
 
 - [CN-faults.gmt](CN-faults.gmt): China faults
 
-### Geological Map of the Mainland China and Adjacent Regions
+### Geological Map of China and Adjacent Regions
 
-- [geo3al.gmt](geo3al.gmt): Geological map of the mainland China and adjacent regions
+- [geo3al.gmt](geo3al.gmt): Geological map of China and adjacent regions
 
 ## Version history
 

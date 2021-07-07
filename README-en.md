@@ -7,7 +7,7 @@ This project contains China geospatial data that can be used in
 
 - **Homepage**: https://github.com/gmt-china/china-geospatial-data
 - **Download**: https://github.com/gmt-china/china-geospatial-data/releases
-- **Instructions**: https://docs.gmt-china.org/latest/dataset-CN/ (in Chinese)
+- **Usage**: https://docs.gmt-china.org/latest/dataset-CN/ (in Chinese)
 
 ## Data
 

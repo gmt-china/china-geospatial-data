@@ -11,27 +11,18 @@ This project contains China geospatial data that can be used in
 
 ## Data
 
-### China Administrative Divisions
-
-- [CN-border-La.gmt](CN-border-La.gmt): China's national borders, provincial borders,
-  ten-segment lines, and South China Sea island data
-- [CN-border-L1.gmt](CN-border-L1.gmt): China's national borders, ten-segment line,
-  and South China Sea island data, excluding provincial data
-- [ten-dash-line.gmt](ten-dash-line.gmt): ten-segment line data
-
-### Active tectonic blocks in the China mainland and neighboring regions
-
-- [CN-block-L1.gmt](CN-block-L1.gmt): Level-1 block boundary data
-- [CN-block-L1-deduced.gmt](CN-block-L1-deduced.gmt): Deduced Level-1 block boundary data
-- [CN-block-L2.gmt](CN-block-L2.gmt): Level-2 block boundary data
-
-### China Faults
-
-- [CN-faults.gmt](CN-faults.gmt): China faults
-
-### Geological Map of China and Adjacent Regions
-
-- [geo3al.gmt](geo3al.gmt): Geological map of China and adjacent regions
+- China Administrative Divisions
+  - [CN-border-La.gmt](CN-border-La.gmt): China's national borders, provincial borders,
+    ten-segment lines, and South China Sea island data
+  - [CN-border-L1.gmt](CN-border-L1.gmt): China's national borders, ten-segment line,
+    and South China Sea island data, excluding provincial data
+  - [ten-dash-line.gmt](ten-dash-line.gmt): ten-segment line data
+- Active tectonic blocks in the China mainland and neighboring regions
+  - [CN-block-L1.gmt](CN-block-L1.gmt): Level-1 block boundary data
+  - [CN-block-L1-deduced.gmt](CN-block-L1-deduced.gmt): Deduced Level-1 block boundary data
+  - [CN-block-L2.gmt](CN-block-L2.gmt): Level-2 block boundary data
+- China Faults:	[CN-faults.gmt](CN-faults.gmt)
+- Geological Map of China and Adjacent Regions: [geo3al.gmt](geo3al.gmt)
 
 ## Version history
 

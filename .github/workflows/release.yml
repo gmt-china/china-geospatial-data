@@ -7,6 +7,7 @@ on:
   release:
     types:
       - published
+  workflow_dispatch:
 
 jobs:
   release:
@@ -33,8 +34,7 @@ jobs:
         done
         zip -r china-geospatial-data-GB2312.zip china-geospatial-data-GB2312
 
-    - name: Upload tarballs
-      uses: shogo82148/actions-upload-release-asset@v1.3.0
-      with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: china-geospatial-data-*.zip
+    - name: Upload as release assets
+      run: gh release upload ${{ github.ref_name }} china-geospatial-data-*.zip
+      env:
+        GH_TOKEN: ${{ github.token }}

@@ -4,7 +4,7 @@
 
 *An English version of the README file is available at [README-en.md](README-en.md).*
 
-----
+---
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/gmt-china/china-geospatial-data)
 
@@ -20,6 +20,8 @@
 - 中国行政区划
   - [CN-border-La.gmt](CN-border-La.gmt): 中国国界、省界、十段线以及南海诸岛数据
   - [CN-border-L1.gmt](CN-border-L1.gmt): 中国国界、十段线以及南海诸岛数据，不含省界数据
+  - [CN-border-L2.gmt](CN-border-L2.gmt): 中国地、市、州级行政区界数据
+  - [CN-border-L3.gmt](CN-border-L3.gmt): 中国县级行政边界数据
   - [ten-dash-line.gmt](ten-dash-line.gmt): 仅包含十段线数据
 - 中国大陆及周边活动地块
   - [CN-block-L1.gmt](CN-block-L1.gmt): 一级地块边界数据
